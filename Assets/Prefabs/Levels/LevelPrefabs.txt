@@ -1,0 +1,66 @@
+# DreamCraft: Puzzle Journey Level Design Guidelines
+
+This document outlines the level design approach for creating dream worlds in DreamCraft.
+
+## Level Structure
+Each level should include:
+1. A clear starting area with introductory dialogue
+2. 2-4 interconnected puzzles that build upon each other
+3. Key story choice moments
+4. A visually distinct dreamscape environment matching the level theme
+5. Optional hidden collectibles that reveal dream memories
+
+## Level Themes & Puzzle Focus
+
+### Level 1: Childhood Dream (Tutorial)
+- **Visuals**: Nostalgic, warm-colored childhood home with slightly surreal proportions
+- **Puzzles**: Simple object manipulation puzzles to teach basic interaction
+- **Powers**: Introduction to resize power
+- **Story**: Introduction to the dream world and initial choice that shapes your path
+
+### Level 2: Ocean Depths
+- **Visuals**: Underwater city with bioluminescent elements and floating bubbles
+- **Puzzles**: Gravity/buoyancy puzzles, flow-based mechanics
+- **Powers**: Introduction to gravity manipulation
+- **Story**: Discover more about your dream guide's identity
+
+### Level 3: Floating Islands
+- **Visuals**: Surreal islands floating in a colorful sky with impossible geometry
+- **Puzzles**: Perspective puzzles, path creation challenges
+- **Powers**: Combined use of resize and gravity powers
+- **Story**: Major choice affecting the dream world's stability
+
+### Level 4: Clockwork Dream
+- **Visuals**: Steampunk-inspired mechanical world with gears and pistons
+- **Puzzles**: Timing-based challenges, synchronization puzzles
+- **Powers**: Introduction to time manipulation
+- **Story**: Discovering the connection between dreams and reality
+
+### Level 5: Forest of Memories
+- **Visuals**: Constantly shifting forest environment with symbolic elements
+- **Puzzles**: Complex multi-stage puzzles combining all previous mechanics
+- **Powers**: All powers used together in creative ways
+- **Story**: Culmination of previous choices, revealing different endings
+
+## Puzzle Design Guidelines
+
+1. Each puzzle should have multiple valid approaches
+2. Incorporate dream-like logic that challenges real-world expectations
+3. Visual cues should hint at solutions (glowing objects, color schemes)
+4. Include a "breakthrough moment" where players have an "aha!" realization
+5. Puzzles should relate thematically to the dream environment
+
+## Story Integration
+
+1. Place story triggers at key moments (puzzle completion, area discovery)
+2. Environmental storytelling should reinforce the narrative theme
+3. Dream symbols should appear consistently across levels (recurring motifs)
+4. Player choices should visibly affect the dream world appearance
+
+## Level Building Requirements
+
+- Use modular components for easy iteration
+- Implement navmesh for player and NPC movement
+- Add particle effects for dream-like atmosphere
+- Create custom shader effects for each level theme
+- Ensure mobile performance optimization
